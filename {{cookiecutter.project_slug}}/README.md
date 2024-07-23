@@ -35,15 +35,12 @@ activate cookiecutter_testing
         ├── data
         │   ├── processed      <- The final, canonical data sets for modeling.
         │   └── raw            <- The original, immutable data dump.
-        |
-        ├── envs               <- Virtual environment location.
-        |
-        ├── models             <- Trained model location.
         │
         ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
         │                         the creator's initials, and a short `-` delimited description, e.g.
         │                         `notebook-test-template.ipynb`.
-        ├── utils              <- Jupyter notebooks and pythons scripts used as utilities in the project. 
+        ├── envs               <- Virtual environment location.
+        ├── models             <- Trained model location.
         │
         ├── .gitignore         <- Files to ignore by `git`.
         │
